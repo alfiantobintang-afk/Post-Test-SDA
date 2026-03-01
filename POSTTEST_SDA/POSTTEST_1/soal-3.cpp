@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-void reverseArray(int* arr, int n) {
+int reverseArray(int* arr, int n) {
     int* start = arr;
     int* end = arr + n - 1;
 
@@ -12,6 +12,7 @@ void reverseArray(int* arr, int n) {
         start++;
         end--;
     }
+    return 0;
 }
 
 int main() {
