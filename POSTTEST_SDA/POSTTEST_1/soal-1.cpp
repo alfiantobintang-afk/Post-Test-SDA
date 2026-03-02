@@ -1,12 +1,6 @@
 #include <iostream>
 using namespace std;
 
-/*
-Analisis Kompleksitas:
-Best Case  : O(n)
-Worst Case : O(n)
-*/
-
 int FindMin(int A[], int n, int &index) {
     int min = A[0];
     index = 0;
